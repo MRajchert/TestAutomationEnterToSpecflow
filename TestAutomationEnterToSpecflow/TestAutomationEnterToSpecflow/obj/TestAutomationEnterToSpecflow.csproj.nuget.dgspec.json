@@ -42,11 +42,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Chromium.ChromeDriver": {
+              "target": "Package",
+              "version": "[2.37.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
             },
             "SpecFlow": {
               "target": "Package",
