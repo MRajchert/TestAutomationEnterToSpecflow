@@ -5,30 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Chromium.ChromeDriver" Version="2.37.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="84.0.4147.3001" />
     <PackageReference Include="SpecFlow" Version="3.4.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Settings\" />
-    <Folder Include="Steps\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Feature\TestAutomationFirstFeature.feature.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>TestAutomationFirstFeature.feature</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Feature\TestAutomationFirstFeature.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>TestAutomationFirstFeature.feature.cs</LastGenOutput>
-    </None>
   </ItemGroup>
 
 </Project>

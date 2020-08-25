@@ -6,5 +6,6 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
     <Import Project="$(NuGetPackageRoot)specflow\3.4.3\build\SpecFlow.targets" Condition="Exists('$(NuGetPackageRoot)specflow\3.4.3\build\SpecFlow.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.chromedriver\84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.chromedriver\84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets')" />
   </ImportGroup>
 </Project>

@@ -42,10 +42,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Chromium.ChromeDriver": {
-              "target": "Package",
-              "version": "[2.37.0, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -56,9 +52,21 @@
               "target": "Package",
               "version": "[3.12.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[84.0.4147.3001, )"
             },
             "SpecFlow": {
               "target": "Package",
